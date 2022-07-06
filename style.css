@@ -1,0 +1,66 @@
+.wrapper {
+    width: 97.6vw;
+    height: 97.6vh;
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    max-width: 700px;
+    background: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+.selectWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    min-width: 300px;
+    height: 480px;
+    background: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+.titleWrapper {
+    border-bottom: 7px dotted darkgrey;
+    text-align: center;
+}
+.explanation {
+    width: 75%;
+}
+.instructionWrapper {
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 15px;
+}
+.myButton {
+    margin: 20px;
+    background: greenyellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 90%;
+    max-width: 220px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.myButton:hover {
+    background: rgb(133, 196, 40);
+}
+.myButton:active {
+    transform: scale(95%);
+    background: rgb(106, 155, 33);
+}
+.inputWrapper {
+    position: absolute;
+    bottom: 10px;
+}
