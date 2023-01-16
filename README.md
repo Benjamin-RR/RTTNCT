@@ -1,5 +1,8 @@
-# RTTNCT
+# R.T.T.N.C.T.
 Redirects : Text to next.config - translator
+
+# Fun Facts
+This project saved the company I am working for over $646 USD. ^_^
 
 # About this project
 This project was thrown together very quickly with the intentions of instead of manually translating a txt file to a js file and it's hundreds of lines of code, to do it fully automatically.
